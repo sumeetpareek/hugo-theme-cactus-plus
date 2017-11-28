@@ -2,7 +2,7 @@
 	{{ $url := replace .Permalink .Site.BaseURL "" }}
 	<a href='{{ .Site.BaseURL }}'>{{ with .Site.Params.home }}{{ . }}{{ else }}Home{{ end }}</a>
 	<a href='{{ .Site.BaseURL }}about'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
-	<a href='{{ .Site.BaseURL }}post'>{{ with .Site.Params.archive }}{{ . }}{{ else }}Posts{{ end }}</a>
+	<a href='{{ .Site.BaseURL }}7'>{{ with .Site.Params.archive }}{{ . }}{{ else }}Work{{ end }}</a>
 
 	{{ range $key, $val := .Site.Params.Links }}
 		<a href="{{ $val }}">{{ $key }}</a>

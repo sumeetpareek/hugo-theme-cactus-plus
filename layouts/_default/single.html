@@ -26,9 +26,10 @@
                       </span>
                     </h2>
                 </header>
-                {{ if .Site.Params.enableToc }}
+                {{ if .Params.showTableOfContents }}
                   {{ if .TableOfContents }}
                     <div id="toc">
+                        <h2>What's on this page</h2>
                       {{ .TableOfContents }}
                     </div>
                   {{ end }}

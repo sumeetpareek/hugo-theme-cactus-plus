@@ -861,21 +861,26 @@ a.symbol:hover {
  * Table of content
  */
 #toc {
+  position: fixed;
+  top: 10px;
+  right: 0px;
+  border-left: 2px solid #aaa;
+  padding: 0em 1em;
+  margin: 2em 1em;
   line-height: 1em;
-  font-size: .7em;
   word-wrap: break-word;
-  padding: 8px;
-  padding-left: 16px;
-  padding-bottom: 14px;
-  margin: 0 0 25px 0;
   display: block;
-  color: #808080;
-  background: #fff;
-  border: none;
-  box-shadow: inset 0 0 0 1px #E4EBF2;
-  border-radius: 4px;
+  background: transparent;
   overflow: hidden;
   font-family: 'Menlo', 'Monaco', Courier, monospace;
+  font-size: 0.9em;
+}
+#toc h2 {
+    color: #aaa;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
 }
 #TableOfContents {
   margin: 1em 0 0 0;

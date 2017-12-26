@@ -860,35 +860,66 @@ a.symbol:hover {
 /**
  * Table of content
  */
-#toc {
-  position: fixed;
-  top: 10px;
-  right: 0px;
-  border-left: 2px solid #aaa;
-  padding: 0em 1em;
-  margin: 2em 1em;
-  line-height: 1em;
-  word-wrap: break-word;
-  display: block;
-  background: transparent;
-  overflow: hidden;
-  font-family: 'Menlo', 'Monaco', Courier, monospace;
-  font-size: 0.9em;
-}
-#toc h2 {
-    color: #aaa;
-    padding: 0;
-    margin: 0;
-    font-size: 1em;
-    font-weight: bold;
-}
-#TableOfContents {
-  margin: 1em 0 0 0;
-  overflow-x: auto;
-  word-wrap: normal;
-  word-break: break-all;
-  white-space: nowrap;
-}
+
+@media (max-width: 1024px) {
+    #toc {
+        border: 1px solid black;
+        padding: 0;
+        margin: 1em 0;
+        line-height: 1em;
+        word-wrap: break-word;
+        display: block;
+        overflow: hidden;
+        font-family: 'Menlo', 'Monaco', Courier, monospace;
+        font-size: 0.9em;
+      }
+      #toc h2 {
+        color: #aaa;
+        padding: 0.7em 1em;
+        margin: 0;
+        font-size: 0.9em;
+        font-weight: bold;
+        background: black;
+    }
+    #TableOfContents {
+        margin: 1em;
+        overflow-x: auto;
+        word-wrap: normal;
+        word-break: break-all;
+        white-space: nowrap;
+      }
+} 
+@media (min-width: 1024px) {
+    #toc {
+        position: fixed;
+        top: 10px;
+        right: 0px;
+        border-left: 2px solid #aaa;
+        padding: 0em 1em;
+        margin: 2em 1em;
+        line-height: 1em;
+        word-wrap: break-word;
+        display: block;
+        overflow: hidden;
+        font-family: 'Menlo', 'Monaco', Courier, monospace;
+        font-size: 0.9em;
+      }
+      #toc h2 {
+        color: #aaa;
+        padding: 0;
+        margin: 0;
+        font-size: 1em;
+        font-weight: bold;
+    }
+    #TableOfContents {
+        margin: 1em 0 0 0;
+        overflow-x: auto;
+        word-wrap: normal;
+        word-break: break-all;
+        white-space: nowrap;
+      }
+} 
+
 #TableOfContents ul {
   list-style-type:none;
   margin: 0;

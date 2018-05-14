@@ -116,8 +116,9 @@ html, body {
 }
 
 body {
-    font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #666;
+    /* font: 18px/1 "Merriweather", serif; */
+    font: 18px/1 'Noto Sans', sans-serif;
+    color: #444;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
@@ -289,7 +290,7 @@ ul>li {
 /* Line Height */
 
 #post-body, p {
-    line-height: 1.7;
+    line-height: 1.8;
 }
 #post-body p > a {
   word-break: break-word;
@@ -339,17 +340,17 @@ em, i {
 .post h1 {
     margin-bottom: 20px;
     color: #222;
-    font: 300 32px/1.4em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: bold 42px/1.4em 'Noto-sans', sans-serif;
 }
 
 .post h2 {
     margin-bottom: 40px;
-    font: 300 24px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: bold 24px/1.5 'Noto-sans', sans-serif;
     color: #111;
 }
 
 .post h2.headline {
-    font: normal 13px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: normal 13px/1.5em 'Noto-sans', sans-serif;
     margin: -5px 0 0 0;
     color: #b2b9be;
     font-size: 13px;
@@ -358,7 +359,7 @@ em, i {
 }
 
 .post h2.headline .tags {
-    font: normal 13px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: normal 13px/1.5em 'Noto-sans', sans-serif;
     margin: -5px 0 40px 0;
     color: #b2b9be;
     font-size: 13px;
@@ -369,7 +370,7 @@ em, i {
 }
 
 #post-list h2 {
-    font: normal 17px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: normal 17px/1.5em 'Noto-sans', sans-serif;
     color: #aaa;
     max-width: 400px;
     margin-top: 2px;

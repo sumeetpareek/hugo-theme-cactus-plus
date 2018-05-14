@@ -125,6 +125,7 @@ body {
 
 body.homepage {
     background: #000;
+    font-family: georgia, "times new roman", times, serif;
 }
 
 h1 {
@@ -236,7 +237,9 @@ nav.main-nav a.cta {
 #wrapper.home {
     max-width: 600px;
     margin: 0 auto;
-    padding: 60px 40px 20px 40px;
+    padding: 100px 40px 20px 40px;
+    color: white;
+    font-family: georgia, "times new roman", times, serif;
 }
 
 .home #avatar {

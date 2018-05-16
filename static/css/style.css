@@ -118,7 +118,8 @@ html, body {
 body {
     /* font: 18px/1 "Merriweather", serif; */
     font: 18px/1 'Noto Sans', sans-serif;
-    color: #444;
+    color: white;
+    background: #212121;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
@@ -130,17 +131,15 @@ body.homepage {
 h1 {
     font-size: 30px;
     letter-spacing: -1px;
-    color: #222;
+    color: white;
     font-weight: bold;
 }
 
 h2 {
     font: italic 19px/1.3em Georgia, serif;
-    color: #bbb;
 }
 
 .profile {
-    background: #000;
     padding-bottom: 1em;
 }
 
@@ -299,7 +298,6 @@ ul>li {
 
 b, strong {
     font-weight: 500;
-    color: #1E2025;
 }
 
 em, i {
@@ -318,18 +316,15 @@ em, i {
 .description {
     float: right;
     font: italic 14px/1.4em Georgia, serif;
-    color: #aaa;
 }
 
 .home h1 {
     font-size: 2em;
-    color: white;
     font-weight: bold;
 }
 
 .home h2 {
     font: italic 19px/1.3em Georgia, serif;
-    color: #bbb;
 }
 
 .post header {
@@ -338,20 +333,17 @@ em, i {
 
 .post h1 {
     margin-bottom: 20px;
-    color: #222;
     font: bold 42px/1.4em 'Noto-sans', sans-serif;
 }
 
 .post h2 {
-    margin-bottom: 40px;
+    margin: 20px 0px;
     font: bold 24px/1.5 'Noto-sans', sans-serif;
-    color: #111;
 }
 
 .post h2.headline {
     font: normal 13px/1.5em 'Noto-sans', sans-serif;
     margin: -5px 0 0 0;
-    color: #b2b9be;
     font-size: 13px;
     letter-spacing: 1px;
     display: inline-block;
@@ -360,7 +352,6 @@ em, i {
 .post h2.headline .tags {
     font: normal 13px/1.5em 'Noto-sans', sans-serif;
     margin: -5px 0 40px 0;
-    color: #b2b9be;
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -370,13 +361,8 @@ em, i {
 
 #post-list h2 {
     font: normal 17px/1.5em 'Noto-sans', sans-serif;
-    color: #aaa;
     max-width: 400px;
     margin-top: 2px;
-}
-
-h3, h4, h5 {
-    color: #333;
 }
 
 h3 {
@@ -397,12 +383,10 @@ h5 {
 h6 {
     font-size: 13px;
     font-weight: bold;
-    color: #666;
     margin-bottom: 6px;
 }
 
 p.small {
-    color: #bbb;
     font-size: 14px;
     line-height: 1.5;
     display: block;
@@ -512,7 +496,6 @@ Post List
     position: relative;
     top: 1px;
     font: 300 17px/1.8 "Helvetica Neue", helvetica, Arial, sans-serif;
-    color: #bbb;
 }
 
 #post-list-footer {
@@ -684,7 +667,6 @@ h2.month {
     position: relative;
     top: 1px;
     font: 300 17px/1.7 "Helvetica Neue", helvetica, Arial, sans-serif;
-    color: #bbb;
 }
 
 #archive-list li a:hover, #archive-list li:hover .dates {

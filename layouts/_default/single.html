@@ -1,6 +1,5 @@
     {{ partial "head.html" . }}
     <body>
-       {{ partial "nav.html" . }}
        {{ partial "profile.html" . }}
 
         <section id="wrapper">
@@ -9,22 +8,7 @@
                     <h1>
                         {{ .Title }}
                     </h1>
-                    <h2 class="headline">
-                    
-                    · {{ if lt 1 .WordCount }}{{ .WordCount }} words{{ else }}{{ .WordCount }} word{{ end }}
-                    · {{ if eq 1 .ReadingTime }}{{ .ReadingTime }}m read{{ else }}{{ .ReadingTime }}m read{{ end }}
-                    . written {{ .Date.Format "Jan 2, 2006" }}
-                    . re-written {{ .Lastmod.Format "Jan 2, 2006" }}
-                      <span class="tags">
-                      {{ with .Params.tags }}
-                      {{ if ge (len .) 1 }}
-                          {{ range . }}
-                              <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a>
-                          {{ end }}
-                      {{ end }}
-                      {{ end}}
-                      </span>
-                    </h2>
+
                 </header>
                 {{ if .Params.showTableOfContents }}
                   {{ if .TableOfContents }}
